@@ -1,0 +1,17 @@
+name: nnviz
+channels: [conda-forge, pytorch]
+dependencies:
+  - python=3.11
+  - pytorch
+  - torchvision
+  - cpuonly
+  - jupyterlab
+  - matplotlib
+  - pillow
+  - numpy
+  - pandas
+  - networkx
+  - pip
+  - pip:
+      - plotly
+      - captum
